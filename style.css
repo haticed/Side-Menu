@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    box-sizing: initial;
+margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url(fall.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+
+}
+.nav{
+    padding:100px;
+    list-style: none;
+    color:rgb(34, 34, 28)
+}
+.nav-item{
+    padding: 20px;
+    margin-top: 10px;
+    width: 150px;
+    background-color: rgb(245, 150, 8);
+}
+.nav-item:hover{
+    color: white;
+    transform: translate(10px);
+    transition: all 0.4s ease-in-out;
+
+}
